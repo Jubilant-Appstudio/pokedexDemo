@@ -12,6 +12,7 @@
 		034A76891F0FA5920029D10D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034A76871F0FA5920029D10D /* Main.storyboard */; };
 		034A768B1F0FA5920029D10D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 034A768A1F0FA5920029D10D /* Assets.xcassets */; };
 		034A768E1F0FA5920029D10D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 034A768C1F0FA5920029D10D /* LaunchScreen.storyboard */; };
+		034A76961F0FA97D0029D10D /* pokemon.csv in Resources */ = {isa = PBXBuildFile; fileRef = 034A76951F0FA97D0029D10D /* pokemon.csv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		034A768A1F0FA5920029D10D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		034A768D1F0FA5920029D10D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		034A768F1F0FA5920029D10D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		034A76951F0FA97D0029D10D /* pokemon.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = pokemon.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				034A76851F0FA5920029D10D /* ViewController.swift */,
 				034A76871F0FA5920029D10D /* Main.storyboard */,
 				034A768A1F0FA5920029D10D /* Assets.xcassets */,
+				034A76951F0FA97D0029D10D /* pokemon.csv */,
 				034A768C1F0FA5920029D10D /* LaunchScreen.storyboard */,
 				034A768F1F0FA5920029D10D /* Info.plist */,
 			);
@@ -126,6 +129,7 @@
 			files = (
 				034A768E1F0FA5920029D10D /* LaunchScreen.storyboard in Resources */,
 				034A768B1F0FA5920029D10D /* Assets.xcassets in Resources */,
+				034A76961F0FA97D0029D10D /* pokemon.csv in Resources */,
 				034A76891F0FA5920029D10D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +269,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EP7E3SPZG7;
 				INFOPLIST_FILE = pokedexDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JubilantAppStudio.pokedexDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,6 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EP7E3SPZG7;
 				INFOPLIST_FILE = pokedexDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = JubilantAppStudio.pokedexDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +310,7 @@
 				034A76941F0FA5920029D10D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
